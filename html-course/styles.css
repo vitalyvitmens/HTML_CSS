@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.table {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.table th,
+td {
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding: 5px;
+}
