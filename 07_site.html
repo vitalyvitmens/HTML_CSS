@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+
+    <style>
+      .header {
+        border-bottom: 2px solid red;
+        color: red;
+      }
+
+      .card {
+        background-color: #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .color {
+        color: green;
+      }
+
+      .aside {
+        color: darkblue;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Site</h1>
+
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite"
+      target="_blank"
+      >Подробная ссылка на site element</a
+    >
+    <br />
+    <br />
+
+    <header id="header" class="header">
+      <h2>Site</h2>
+    </header>
+
+    <nav id="navigation">
+      <ul>
+        <li><a href="#">item 1</a></li>
+        <li><a href="#">item 2</a></li>
+        <li><a href="#">item 3</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <section>
+      <article id="block1" class="card header">
+        <h3>Block 1</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          <span class="color">
+            Maiores, deleniti quibusdam obcaecati molestiae corporis accusamus
+            consequuntur est maxime laboriosam
+          </span>
+          id ipsum vel laudantium nulla cumque error commodi, atque quam!
+          Veniam.
+        </p>
+      </article>
+
+      <article id="block2" class="card">
+        <h3>Block 2</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+          deleniti quibusdam obcaecati molestiae corporis accusamus consequuntur
+          est maxime laboriosam id ipsum vel laudantium nulla cumque error
+          commodi, atque quam! Veniam.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+    <aside id="aside" class="aside">
+      Тег aside используется для боковых менюшек
+    </aside>
+
+    <footer id="footer">
+      <h4>Contact me</h4>
+      <ul>
+        <li>VKontakte</li>
+        <li>Telegram</li>
+        <li>YouTube</li>
+      </ul>
+    </footer>
+
+    <!-- 
+    TODO: Emmit:
+    div.color + tab
+    span#color + tab
+    #fff + tab
+    .class + tab
+    -->
+    <div class="color"></div>
+    <span id="color"></span>
+    <div id="fff"></div>
+    <div class="class"></div>
+  </body>
+</html>

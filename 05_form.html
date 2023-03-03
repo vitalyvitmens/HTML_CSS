@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button"
+      target="_blank"
+      >Подробная ссылка на все виды form input</a
+    >
+    <br />
+    <br />
+
+    <form>
+      <div>
+        <label for="text">Text</label>
+        <input type="text" id="text" value="Текст по умолчанию" readonly />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Введите email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="number">Number</label>
+        <input type="number" id="number" min="0" />
+      </div>
+
+      <div>
+        <label for="range">Range</label>
+        <input type="range" id="range" min="0" max="10" step="2" />
+      </div>
+
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="date" />
+      </div>
+
+      <div>
+        <label for="color">Color</label>
+        <input type="color" id="color" />
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <br />
+        <textarea id="message" cols="25" rows="5"></textarea>
+      </div>
+
+      <div>
+        <label for="coating">Покрытие</label>
+        <select id="coating">
+          <option value="gloss" selected>глянцевое</option>
+          <option value="mat">матовое</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="RAL">RAL</label>
+        <select id="RAL">
+          <option value="">1014</option>
+          <option value="">1015</option>
+          <option value="">1018</option>
+          <option value="">3005</option>
+          <option value="">3009</option>
+          <option value="">3011</option>
+          <option value="">5005</option>
+          <option value="">6002</option>
+          <option value="">6005</option>
+          <option value="">7024</option>
+          <option value="" selected>8017</option>
+          <option value="">8019</option>
+          <option value="">9003</option>
+          <option value="">9005</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="sex">Пол</label>
+        <select name="" id="sex">
+          <option value="male">Мужчина</option>
+          <option value="female" selected>Женщина</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Количество работ</label>
+        <input type="radio" name="work" />1
+        <input type="radio" name="work" />2
+        <input type="radio" name="work" />3
+        <input type="radio" name="work" />10+
+      </div>
+
+      <div>
+        <label>Любимая пища</label>
+        <input type="checkbox" name="food" />Творог
+        <input type="checkbox" name="food" />Голубика
+        <input type="checkbox" name="food" />Виноград
+        <input type="checkbox" name="food" />Банан
+      </div>
+
+      <div>
+        <input type="submit" value="Отправить форму" />
+        <br />
+        <button type="submit">Отправить форму</button>
+      </div>
+
+      <div>
+        <label for="phone">Enter your phone number:</label>
+
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="+[0-9]{3}-[0-9]{2}-[0-9]{7}"
+          required
+        />
+
+        <small>Format: +375 29 1234567</small>
+      </div>
+    </form>
+  </body>
+</html>
