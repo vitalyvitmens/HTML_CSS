@@ -4,14 +4,14 @@
 
 /* Tag Name */
 body {
-  background-color: #eee;
+  background-color: #0f141e;
 }
 
 /* Class */
 .card {
   padding: 10px;
   background-color: #fff;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .card p {
@@ -19,12 +19,12 @@ body {
 }
 
 .html {
-  background: orange;
+  background: #e55f28;
   color: white;
 }
 
 .css {
-  background: blue;
+  background: #2549d9;
   color: white;
 }
 

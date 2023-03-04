@@ -4,11 +4,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: normal;
+  background: #f1f1f1;
+  color: #0f141e;
 }
 
 .info-text p {
   font-style: italic;
   font-weight: bold;
+  color: #86898f;
 }
 
 .table {
@@ -21,4 +24,20 @@ td {
   border: 2px solid purple;
   border-radius: 5px;
   padding: 5px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
 }

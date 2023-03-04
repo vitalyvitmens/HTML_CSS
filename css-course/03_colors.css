@@ -1,0 +1,21 @@
+.color-1 {
+  color: DarkMagenta;
+}
+/* RGB (red green blue) */
+/* 00 - ff */
+.color-2 {
+  color: #0000ff;
+}
+
+.color-3 {
+  color: #ddd;
+}
+/* 0 - 255 */
+.color-4 {
+  color: rgb(0, 255, 0);
+  opacity: 0.5;
+}
+
+.color-5 {
+  color: rgba(0, 255, 0, 0.5);
+}
