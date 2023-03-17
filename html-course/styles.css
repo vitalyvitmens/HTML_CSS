@@ -184,6 +184,13 @@ a:visited {
   font-family: inherit;
 }
 
+.bt {
+  height: auto;
+  background: #e5ffe7;
+  padding: 10px;
+  margin-top: 10px;
+}
+
 @media (max-width: 650px) {
   .info {
     margin-bottom: 20px;
@@ -203,3 +210,4 @@ a:visited {
     margin-bottom: 10px;
   }
 }
+
